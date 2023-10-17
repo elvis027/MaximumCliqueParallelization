@@ -1,0 +1,2 @@
+# Maximum Clique Parallelization
+In the maximum clique problem, the input is an undirected graph, and the output is a maximum clique in the graph. This problem is classified as NP-Complete. In this project, we use MPI and OpenMP to parallelize the Bron-Kerbosch algorithm, one of the key algorithms for addressing the maximum clique problem. The experiment shows that our program can achieve 12 times faster when compared to the non-parallel baseline solution by using 10 MPI nodes and 4 CPU cores each.
